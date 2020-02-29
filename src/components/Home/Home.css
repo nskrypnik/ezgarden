@@ -1,0 +1,26 @@
+
+.HomeContainer .FeaturesHeader,
+.HomeContainer .SiteTitle {
+    text-align: center;
+}
+
+.HomeContainer .FeatureItem {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.HomeContainer .FeatureItem > div {
+    flex: 1;
+}
+
+.HomeContainer .FeatureItem .Magnitude {
+    text-align: center;
+}
+
+.HomeContainer .FeatureItem .Place {
+    min-width: 300px;
+}
+
+.HomeContainer .FeatureItem .Time {
+    min-width: 200px;
+}

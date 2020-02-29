@@ -1,0 +1,33 @@
+.ProfileContainer .ProfileTitle {
+    text-align: center;
+}
+
+.ProfileContainer .ProfileBody {
+    display: flex;
+}
+
+.ProfileContainer .ProfileBody .ProfileAvatar,
+.ProfileContainer .ProfileBody .ProfileDetails {
+    margin-right: 20px;
+}
+
+.ProfileContainer .ProfileBody .ProfileAvatar img{
+    width: 200px;
+}
+
+.ProfileContainer .ProfileBody .ProfileDetails
+.ProfileDetailsItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.ProfileContainer .ProfileBody .ProfileDetails
+.ProfileDetailsItem .ProfileDetailsItemValue {
+    width: 200px;
+}
+
+.ProfileContainer .ProfileBody .ProfileDetails
+.ProfileDetailsItem .ProfileDetailsItemKey {
+    width: 100px;
+}

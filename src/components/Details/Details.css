@@ -1,0 +1,16 @@
+.DetailsContainer .FeatureTitle {
+    text-align: center;
+}
+
+.DetailsContainer .FeatureDetails {
+    padding-left: 20px;
+}
+
+.DetailsContainer .FeatureDetails .FeatureDetailsItem {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.DetailsContainer .FeatureDetails .FeatureDetailsItem .FeatureDetailsItemKey {
+    min-width: 150px;
+}

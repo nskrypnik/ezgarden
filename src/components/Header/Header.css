@@ -1,0 +1,22 @@
+header.AppHeader {
+    padding: 20px;
+    display: flex;
+    background-color: #e2e2e2;
+    justify-content: center;
+    align-items: center;
+}
+
+header.AppHeader .LogoHolder img {
+    width: 60px;
+    height: 60px;
+}
+
+header.AppHeader .HeaderTitle {
+    flex: 1;
+    text-align: center;
+}
+
+header.AppHeader .HeaderTitle h1 {
+    margin: 0;
+    color: #999;
+}

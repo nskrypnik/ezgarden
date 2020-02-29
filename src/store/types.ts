@@ -17,6 +17,7 @@ export interface Site {
 }
 
 export interface Profile {
+    [key: string]: any
     firstName: string
     lastName: string
     avatarImage: string
@@ -38,6 +39,7 @@ export interface Feature {
     id: string
     type: string
     properties: {
+        [key: string]: any
         mag: number
         place: string
         time: number
@@ -47,8 +49,8 @@ export interface Feature {
         detail: string
         felt: number | null
         cdi: number | null
-        mmi: any
-        alert: any
+        mmi: any | null
+        alert: any | null
         status: string
         tsunami: number
         sig: number
